@@ -30,13 +30,9 @@ document.querySelector(".button1").addEventListener("click",function(e){
     // const list=document.querySelector('.item__list');
     const input=document.querySelector('input')
     temp.innerHTML=input.value;
-    temp.innerHTML += "<button style='float: right;' class='button1' type='button' onclick='remove("+cnt+")'>delete</button>";
+    temp.innerHTML += "<button style='float: right;' class='button1' type='button' onclick='remove("+cnt+")'>Delete</button>";
     list.appendChild(temp);
     cnt++;
-    
-    
-
-    
 })
 
 
@@ -50,3 +46,5 @@ function remove(cnt) {
 //     let li = document.getElementById('li' + cnt);  
 //     list.removeChild(li);
 //   }
+
+
